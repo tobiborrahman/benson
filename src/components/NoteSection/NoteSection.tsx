@@ -9,7 +9,7 @@ const NoteSection = () => {
 
 				<div className="mt-[150px] sm:mt-[90px] ml-[400px] md:ml-0 sm:ml-0">
 					<div className="">
-						<div className="flex items-center relative">
+						<div className="flex items-center relative sm:mx-5 md:ml-20">
 							<div>
 								<Image
 									className="absolute top-[220px] left-[-188px] sm:hidden"
@@ -44,7 +44,7 @@ const NoteSection = () => {
 								/>
 								<div className="z-[9999]">
 									<Image
-										className="absolute right-[-250px] md:right-[-300px] md:top-[50px]  sm:hidden md:hidden"
+										className="absolute right-[-250px] md:right-[-300px] top-[50px] sm:hidden md:hidden"
 										src="assets/images/cat-note-1.svg"
 										alt="note image"
 										width={300}

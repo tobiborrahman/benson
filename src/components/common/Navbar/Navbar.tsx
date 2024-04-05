@@ -11,7 +11,7 @@ const Navbar = () => {
 
 	return (
 		<header className="mb-[185px] md:mb-[30px] sm:mb-[20px]">
-			<div className="max-w-[1149px] bg-[#FFFFFF] border-default rounded-[30px] mx-auto mt-[22px] px-[20px]">
+			<div className="max-w-[1149px] bg-[#FFFFFF] border-default rounded-[30px] mx-auto mt-[22px] px-[20px] sm:mx-5 md:mx-5">
 				<nav className="flex justify-between items-center h-[90px]">
 					<div>
 						<Image
@@ -59,38 +59,33 @@ const Navbar = () => {
 							}`}
 						>
 							<ul className={`flex flex-col items-center gap-4`}>
-								<li className="mt-5">
-									<a
-										href="#"
-										className="p-[10px] bg-[#2AA6EE] rounded-[12px]"
-									>
-										<Image
-											src="assets/images/telegram.svg"
-											alt="telegram logo"
-											width={30}
-											height={30}
-										/>
-									</a>
-								</li>
-								<li className="mt-5">
-									<a
-										href="#"
-										className="p-[10px] bg-primary rounded-[12px]"
-									>
-										<Image
-											src="assets/images/twitter.svg"
-											alt="twitter logo"
-											width={31.17}
-											height={28.17}
-										/>
-									</a>
-								</li>
+								<a
+									href="#"
+									className="p-[10px] bg-[#2AA6EE] rounded-[12px]"
+								>
+									<Image
+										src="assets/images/telegram.svg"
+										alt="telegram logo"
+										width={30}
+										height={30}
+									/>
+								</a>
 
-								<li className="mt-5">
-									<a href="#" className="button-primary py-2">
-										Buy $BENSON
-									</a>
-								</li>
+								<a
+									href="#"
+									className="p-[10px] bg-primary rounded-[12px]"
+								>
+									<Image
+										src="assets/images/twitter.svg"
+										alt="twitter logo"
+										width={31.17}
+										height={28.17}
+									/>
+								</a>
+
+								<a href="#" className="button-primary py-2">
+									Buy $BENSON
+								</a>
 							</ul>
 						</div>
 					)}
