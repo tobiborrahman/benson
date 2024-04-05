@@ -8,7 +8,7 @@ const Tokenomics = () => {
 					Based Benson’s <br /> Tokenomics
 				</h1>
 
-				<div className="max-w-[985px] h-[614px] mx-auto bg-[#FFFFFF] border-default px-[88px] md:px-[25px] py-[93px] md:py-[30px] grid grid-cols-2 sm:grid-cols-1 gap-[30px] md:gap-[15px] mb-[64px] md:mb-[30px] md:mx-5">
+				<div className="max-w-[985px] h-[614px] mx-auto bg-[#FFFFFF] border-default px-[88px] md:px-[25px] sm:px-[20px] py-[93px] sm:py-[20px] md:py-[30px] grid grid-cols-2 sm:grid-cols-1 gap-[30px] md:gap-[15px] mb-[64px] md:mb-[30px] md:mx-5">
 					<div className="bg-[#0585FC] border-default text-center flex justify-center items-center">
 						<div>
 							<h2 className="text-[48px] font-primary leading-[58px] ">
@@ -21,8 +21,8 @@ const Tokenomics = () => {
 					</div>
 					<div className="bg-[#0585FC] border-default text-center flex justify-center items-center">
 						<div>
-							<h2 className="text-[48px] md:px-[90px] sm:px-2 font-primary leading-[58px] ">
-								100% LP 0% Presale
+							<h2 className="text-[48px] font-primary leading-[58px] ">
+								100% LP <br /> 0% Presale
 							</h2>
 						</div>
 					</div>
@@ -35,8 +35,8 @@ const Tokenomics = () => {
 					</div>
 					<div className="bg-[#0585FC] border-default text-center flex justify-center items-center">
 						<div>
-							<h2 className="text-[48px] md:px-[90px] font-primary leading-[58px] ">
-								Ownership Revoked
+							<h2 className="text-[48px] font-primary leading-[58px] ">
+								Ownership <br /> Revoked
 							</h2>
 						</div>
 					</div>

@@ -11,8 +11,8 @@ const Navbar = () => {
 
 	return (
 		<header className="mb-[185px] md:mb-[30px] sm:mb-[20px]">
-			<div className="max-w-[1149px] bg-[#FFFFFF] border-default rounded-[30px] mx-auto mt-[22px] px-[20px] sm:mx-5 md:mx-5">
-				<nav className="flex justify-between items-center h-[90px]">
+			<div className="max-w-[1149px] mx-auto bg-[#FFFFFF] border-default rounded-[30px] lg:max-w-full mt-[22px] px-[20px] sm:mx-5 md:mx-5">
+				<nav className="flex justify-between items-center h-[90px] w-full">
 					<div>
 						<Image
 							src="/assets/images/logo.svg"

@@ -10,8 +10,8 @@ const About = () => {
 						What is $BENSON?
 					</h1>
 
-					<div className="flex md:flex-col sm:flex-col items-start ml-[275px] md:ml-0 sm:ml-0">
-						<div className="max-w-[805px] mx-auto bg-[#FFFFFF] border-default sm:mx-5 md:mx-5">
+					<div className="flex md:flex-col sm:flex-col md:justify-center md:items-center sm:justify-center sm:items-center items-start ml-[275px] md:ml-0 sm:ml-0">
+						<div className="max-w-[805px] mx-auto md:max-w-full bg-[#FFFFFF] border-default sm:mx-5 md:mx-5">
 							<div className=" px-[47px] py-[17px]">
 								<p className="text-[20px] leading-[32px] font-primary text-[#000000] text-center">
 									Olivia Benson, Taylor Swifts adopted
@@ -27,19 +27,17 @@ const About = () => {
 						</div>
 
 						<div>
-							<div className="md:ml-[250px] sm:ml-0">
-								<Image
-									src="assets/images/cat-banner.svg"
-									alt="banner img"
-									width={351}
-									height={350}
-								/>
-							</div>
+							<Image
+								src="assets/images/cat-banner.svg"
+								alt="banner img"
+								width={351}
+								height={350}
+							/>
 						</div>
 					</div>
 
 					<div className="flex justify-center items-center">
-						<button className="button-primary !w-[208px] !h-[68px] pt-4 pb-5">
+						<button className="button-primary !w-[208px] !h-[68px] pt-4 pb-5 lg:mt-[70px] md:mt-0 sm:mt-0">
 							Buy $BENSON
 						</button>
 					</div>
