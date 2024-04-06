@@ -60,7 +60,16 @@ const BuySection = () => {
 								wallet.
 							</p>
 						</div>
+						<Image
+							className="-ml-[55px] md:ml-0 md:items-center sm:hidden md:hidden"
+							src="assets/images/cat-buy.svg"
+							alt="but cat img"
+							width={350}
+							height={350}
+						/>
 					</div>
+				</div>
+				<div className="hidden md:flex sm:flex justify-center items-center">
 					<Image
 						className="-ml-[55px] md:ml-0 md:items-center"
 						src="assets/images/cat-buy.svg"
