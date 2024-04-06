@@ -73,7 +73,7 @@ const BuySection = () => {
 				</div>
 				<div className="hidden md:flex sm:flex justify-center items-center">
 					<Image
-						className="-ml-[55px] md:ml-0 md:items-center md:w-[500px] md:h-[500px]"
+						className="-ml-[55px] md:ml-0 md:items-center md:w-[500px] md:h-[500px] sm:w-[350px] sm:h-[350px]"
 						src="assets/images/cat-buy.svg"
 						alt="but cat img"
 						width={350}

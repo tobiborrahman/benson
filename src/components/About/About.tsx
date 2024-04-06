@@ -27,6 +27,7 @@ const About = () => {
 
 						<div>
 							<Image
+								className="md:w-[500px] md:h-[500px] sm:w-[350px] sm:h-[350px]"
 								src="assets/images/cat-banner.svg"
 								alt="banner img"
 								width={351}

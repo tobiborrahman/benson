@@ -44,7 +44,7 @@ const Tokenomics = () => {
 
 				<div className="flex justify-center items-center mb-[56px]">
 					<button className="w-[235px] h-[62px] text-[24px] leading-[32.6px] bg-[#000000] rounded-[12px] font-primary">
-						See the charts
+						See the Charts
 					</button>
 				</div>
 			</div>
