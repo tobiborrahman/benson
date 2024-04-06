@@ -5,7 +5,9 @@ const BuySection = () => {
 	return (
 		<div className="mb-[536px] md:mb-[150px] sm:mb-[50px]">
 			<div>
-				<h1 className="!leading-[58px] pb-5 sm:text-[40px]">How To Buy</h1>
+				<h1 className="!leading-[58px] pb-5 sm:text-[40px]">
+					How To Buy
+				</h1>
 
 				<div className="max-w-[985px] mx-auto h-[614px] md:h-auto border-default px-[48px] sm:px-3 py-[50px] sm:py-8 bg-[#FFFFFF] md:mx-5">
 					<div>
@@ -61,9 +63,9 @@ const BuySection = () => {
 							</p>
 						</div>
 						<Image
-							className="-ml-[55px] md:ml-0 md:items-center sm:hidden md:hidden"
+							className="-ml-[55px] md:ml-0 md:items-center sm:hidden md:hidden "
 							src="assets/images/cat-buy.svg"
-							alt="but cat img"
+							alt="buy cat img"
 							width={350}
 							height={350}
 						/>
@@ -71,7 +73,7 @@ const BuySection = () => {
 				</div>
 				<div className="hidden md:flex sm:flex justify-center items-center">
 					<Image
-						className="-ml-[55px] md:ml-0 md:items-center"
+						className="-ml-[55px] md:ml-0 md:items-center md:w-[500px] md:h-[500px]"
 						src="assets/images/cat-buy.svg"
 						alt="but cat img"
 						width={350}
