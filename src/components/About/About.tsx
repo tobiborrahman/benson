@@ -6,7 +6,7 @@ const About = () => {
 		<div className="mb-[128px] md:mb-0 sm:mb-0">
 			<div className="max-w-[1355px] mx-auto pt-[43px] pb-[46px]">
 				<div>
-					<h1 className="pb-[67px] md:pb-[50px] sm:pb-[30px]">
+					<h1 className="pb-[67px] md:pb-[50px] sm:pb-[30px] sm:text-[40px]">
 						What is $BENSON?
 					</h1>
 

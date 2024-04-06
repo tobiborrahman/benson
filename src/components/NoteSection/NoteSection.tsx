@@ -5,7 +5,9 @@ const NoteSection = () => {
 	return (
 		<div className="pb-[208px] md:pb-[50px] mb-[136px] md:mb-[100px] sm:mb-[50px]">
 			<div className="max-w-[1355px] h-[1101px] mx-auto pt-[97px]">
-				<h1>$BENSON Note to Anon Reader</h1>
+				<h1 className="sm:text-[40px] sm:px-5">
+					$BENSON Note to Anon Reader
+				</h1>
 
 				<div className="mt-[150px] sm:mt-[90px] ml-[400px] md:ml-0 sm:ml-0">
 					<div className="relative sm:mx-5 md:ml-20">

@@ -5,7 +5,7 @@ const BuySection = () => {
 	return (
 		<div className="mb-[536px] md:mb-[150px] sm:mb-[50px]">
 			<div>
-				<h1 className="!leading-[58px] pb-5">How To Buy</h1>
+				<h1 className="!leading-[58px] pb-5 sm:text-[40px]">How To Buy</h1>
 
 				<div className="max-w-[985px] mx-auto h-[614px] md:h-auto border-default px-[48px] sm:px-3 py-[50px] sm:py-8 bg-[#FFFFFF] md:mx-5">
 					<div>
